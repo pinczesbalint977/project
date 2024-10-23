@@ -1,0 +1,355 @@
+body{
+
+    background-color: #e3e0e0;
+    font-family: "Spectral" sans-serif;
+
+}
+
+
+.nav{
+
+    background: none;
+}
+
+.nav h1{
+
+    position: absolute;
+    margin-left: 1%;
+    color: white;
+    font-family: "Spectral", sans-serif;
+}
+
+.navul{
+
+    background: none;
+    display: flex;
+    padding: 1%;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+.navli{
+
+    margin-right: 3%;
+    list-style: none;
+}
+
+.navli a{
+
+    color: white;
+    font-family: "Spectral", sans-serif;
+    text-decoration: none;
+
+}
+
+.aranyj{
+
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    font-family: "Spectral", sans-serif;
+}
+
+
+.aranyj img{
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 10%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    filter: brightness(70%);
+
+}
+
+.aranyjka{
+
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    font-family: "Spectral", sans-serif;
+}
+
+.aranyjka img{
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 100% 40%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    filter: brightness(70%);
+
+}
+
+.aranyj1{
+
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aranyj h1{
+
+    margin-right: 3%;
+    color: #ffe599;
+    font-size: 80px;
+    font-family: "Spectral", sans-serif;
+    font-weight: 300;
+}
+
+.aranyj2{
+
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aranyj2 h2{
+
+    margin-left: 3%;
+    color: white;
+    text-wrap: wrap;
+    font-size: 16px;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.idézet{
+
+    position: absolute;
+    white-space: nowrap;
+    transition: transform 1s ease-in-out;
+}
+
+.erdekes{
+
+    width: 100%;
+    font-family: "Spectral", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.erdekes ul{
+
+    list-style: none;
+}
+
+.erdekes h5{
+
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.erdekes h2{
+
+    color: #5b0f00;
+    font-family: "Spectral", sans-serif;
+    font-size: 50px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+
+.image{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+
+    margin-top: 15%;
+}
+
+.footer{
+
+    margin-top: 15%;
+}
+
+
+.footer li{
+
+    list-style:square ;
+
+}
+
+
+.elete{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Caveat";
+}
+
+.elete h2{
+
+    font-size: 150px;
+    color: white;
+}
+
+.allomasok{
+
+    display: flex;
+    font-family: "Spectral", sans-serif;
+    font-weight: 300;
+    
+}
+
+.resz1{
+
+    width: 50%;
+    height: 60vh;
+}
+
+
+
+.resz1 img{
+
+    width: 95%;
+    height: 85%;
+    margin-bottom: 3%;
+}
+
+
+.resz2{
+
+    width: 50%;
+    height: 60vh;
+
+}
+
+.resz2 h2{
+
+    color: #3b6bb7;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+.resz2 p{
+
+    font-size: 21px;
+}
+
+.resz1 h2{
+
+    font-size: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.allomasok2{
+
+    width: 100%;
+    height: 110vh;
+    margin-top: 5%;
+    display: flex;
+    font-family: "Spectral", sans-serif;
+    font-weight: 300;
+}
+
+.resz3{
+
+    width: 50%;
+}
+
+.resz3 p{
+
+    font-size: 20px;
+}
+
+.resz4{
+
+    width: 50%;
+    translate: 15%;
+}
+
+.resz4 img{
+
+    margin-bottom: 3%;
+}
+
+.resz4 h2{
+
+    font-size: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.allomasok3{
+
+    width: 100%;
+    height: 100vh;
+    background-image:url(/pic/aranykaelet.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Spectral", sans-serif;
+    color:#3b6bb7;
+}
+
+.allomasok3 li{
+
+    font-size: 18px;
+    list-style: none;
+}
+
+.kviz{
+
+    width: 100%;
+    height: 530vh;
+}
+
+.elerhetoseg{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.elerhetoseg h1{
+
+    color: white;
+}
+
+.szer{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.szer h2{
+
+    margin-bottom: 3%;
+}
